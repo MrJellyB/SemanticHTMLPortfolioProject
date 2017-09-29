@@ -4,8 +4,13 @@
   padding: 0;
 }
 
+main {
+  width: 60%;
+  margin-left: 20%;
+}
+
 body {
-  background: #F5F5F5;
+  background: url('https://images7.alphacoders.com/374/374296.jpg');
   color: #444;
   font-family: "Helvetica Neue", Arial, serif;
   font-size: 22px;
@@ -36,7 +41,7 @@ p, ul {
 }
 
 .skills ul li {
-  margin-left: 30px;;
+  margin-left: 30px;
 }
 
 a {
@@ -133,6 +138,12 @@ a.active {
 .skills {
   background: #e91e63;
   color: white;
+}
+
+/*tagline*/
+
+.tagline {
+  background: #687bd6;
 }
 
 .footer, footer {
